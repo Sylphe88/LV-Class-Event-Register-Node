@@ -8,48 +8,54 @@
 	<Property Name="NI.XItem.Express" Type="Bool">false</Property>
 	<Property Name="NI.XItem.Name" Type="Str">XNode 1</Property>
 	<Property Name="NI.XItem.SupportsFatalErrorOut" Type="Bool">true</Property>
-	<Item Name="Get Class Path by Name.vi" Type="VI" URL="../Get Class Path by Name.vi"/>
-	<Item Name="IsEventCtrlValid.vi" Type="VI" URL="../IsEventCtrlValid.vi"/>
-	<Item Name="LOERN_AdaptToInputs.vi" Type="Ability VI" URL="../LOERN_AdaptToInputs.vi">
+	<Item Name="Subs" Type="Folder">
+		<Item Name="Calculate Node Width.vi" Type="VI" URL="../Calculate Node Width.vi"/>
+		<Item Name="Find &amp; Connect Terminals.vi" Type="VI" URL="../Find &amp; Connect Terminals.vi"/>
+		<Item Name="Get Class Path by Name.vi" Type="VI" URL="../Get Class Path by Name.vi"/>
+		<Item Name="IsEventCtrlValid.vi" Type="VI" URL="../IsEventCtrlValid.vi"/>
+		<Item Name="LOER_ClassInfo.ctl" Type="VI" URL="../LOER_ClassInfo.ctl"/>
+		<Item Name="Scan lvclass.vi" Type="VI" URL="../Scan lvclass.vi"/>
+	</Item>
+	<Item Name="LOER_AdaptToInputs.vi" Type="Ability VI" URL="../LOER_AdaptToInputs.vi">
 		<Property Name="NI.XItem.Name" Type="Str">AdaptToInputs</Property>
 	</Item>
-	<Item Name="LOERN_BuildMenu.vi" Type="Ability VI" URL="../LOERN_BuildMenu.vi">
+	<Item Name="LOER_BuildMenu.vi" Type="Ability VI" URL="../LOER_BuildMenu.vi">
 		<Property Name="NI.XItem.Name" Type="Str">BuildMenu5</Property>
 	</Item>
-	<Item Name="LOERN_ClassInfo.ctl" Type="VI" URL="../LOERN_ClassInfo.ctl"/>
-	<Item Name="LOERN_GenerateCode.vi" Type="Ability VI" URL="../LOERN_GenerateCode.vi">
+	<Item Name="LOER_GenerateCode.vi" Type="Ability VI" URL="../LOER_GenerateCode.vi">
 		<Property Name="NI.XItem.Name" Type="Str">GenerateCode</Property>
 	</Item>
-	<Item Name="LOERN_GetAutoToolRegions.vi" Type="Ability VI" URL="../LOERN_GetAutoToolRegions.vi">
+	<Item Name="LOER_GetAutoToolRegions.vi" Type="Ability VI" URL="../LOER_GetAutoToolRegions.vi">
 		<Property Name="NI.XItem.Name" Type="Str">AutotoolRegions</Property>
 	</Item>
-	<Item Name="LOERN_GetBounds.vi" Type="Ability VI" URL="../LOERN_GetBounds.vi">
+	<Item Name="LOER_GetBounds.vi" Type="Ability VI" URL="../LOER_GetBounds.vi">
 		<Property Name="NI.XItem.Name" Type="Str">Bounds</Property>
 	</Item>
-	<Item Name="LOERN_GetImage.vi" Type="Ability VI" URL="../LOERN_GetImage.vi">
+	<Item Name="LOER_GetImage.vi" Type="Ability VI" URL="../LOER_GetImage.vi">
 		<Property Name="NI.XItem.Name" Type="Str">Image</Property>
 	</Item>
-	<Item Name="LOERN_GetTerms.vi" Type="Ability VI" URL="../LOERN_GetTerms.vi">
+	<Item Name="LOER_GetTerms.vi" Type="Ability VI" URL="../LOER_GetTerms.vi">
 		<Property Name="NI.XItem.Name" Type="Str">GetTerms4</Property>
 	</Item>
-	<Item Name="LOERN_GrowInfo.vi" Type="Ability VI" URL="../LOERN_GrowInfo.vi">
+	<Item Name="LOER_GrowInfo.vi" Type="Ability VI" URL="../LOER_GrowInfo.vi">
 		<Property Name="NI.XItem.Name" Type="Str">GrowInfo</Property>
 	</Item>
-	<Item Name="LOERN_Initialize.vi" Type="Ability VI" URL="../LOERN_Initialize.vi">
+	<Item Name="LOER_Initialize.vi" Type="Ability VI" URL="../LOER_Initialize.vi">
 		<Property Name="NI.XItem.Name" Type="Str">Initialize</Property>
 	</Item>
-	<Item Name="LOERN_OnOperate.vi" Type="Ability VI" URL="../LOERN_OnOperate.vi">
+	<Item Name="LOER_ModifyCode.vi" Type="Ability VI" URL="../LOER_ModifyCode.vi">
+		<Property Name="NI.XItem.Name" Type="Str">ModifyCode</Property>
+	</Item>
+	<Item Name="LOER_OnOperate.vi" Type="Ability VI" URL="../LOER_OnOperate.vi">
 		<Property Name="NI.XItem.Name" Type="Str">OperateClick</Property>
 	</Item>
-	<Item Name="LOERN_OnResize.vi" Type="Ability VI" URL="../LOERN_OnResize.vi">
+	<Item Name="LOER_OnResize.vi" Type="Ability VI" URL="../LOER_OnResize.vi">
 		<Property Name="NI.XItem.Name" Type="Str">OnResize2</Property>
 	</Item>
-	<Item Name="LOERN_SelectMenu.vi" Type="Ability VI" URL="../LOERN_SelectMenu.vi">
+	<Item Name="LOER_SelectMenu.vi" Type="Ability VI" URL="../LOER_SelectMenu.vi">
 		<Property Name="NI.XItem.Name" Type="Str">SelectMenu5</Property>
 	</Item>
-	<Item Name="LOERN_State.ctl" Type="Ability VI" URL="../LOERN_State.ctl">
+	<Item Name="LOER_State.ctl" Type="Ability VI" URL="../LOER_State.ctl">
 		<Property Name="NI.XItem.Name" Type="Str">State</Property>
 	</Item>
-	<Item Name="Scan lvclass.vi" Type="VI" URL="../Scan lvclass.vi"/>
-	<Item Name="Temp.vi" Type="VI" URL="../Temp.vi"/>
 </XNode>
