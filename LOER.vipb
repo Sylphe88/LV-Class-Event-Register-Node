@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2017-06-21 15:16:00" Modified_Date="2017-06-21 17:21:38" Creator="frmausse" Comments="" ID="794ddf5c272c71b9e390a497ba19e331">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2017-06-21 15:16:00" Modified_Date="2017-06-26 11:58:23" Creator="frmausse" Comments="" ID="bb09e9b62040201dd6a66af978c41087">
   <Library_General_Settings>
     <Package_File_Name>LV_Object_Event_Registration_Node</Package_File_Name>
-    <Library_Version>0.2.0.4</Library_Version>
+    <Library_Version>0.2.1.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\Users\frmausse\Desktop</Library_Output_Folder>
@@ -34,7 +34,7 @@ To allow for registrating object event references (or cluster of user event refe
       <Copyright/>
       <Packager>EricM</Packager>
       <URL/>
-      <Release_Notes>New build, with documentation and example</Release_Notes>
+      <Release_Notes>Refined AdaptToInputs and GenerateCode -&gt; Fixed color bug + better performance</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -106,6 +106,48 @@ To allow for registrating object event references (or cluster of user event refe
       <Destination_Overrides>
         <Path>Signal Example</Path>
         <Destination>1</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>.gitignore</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>LOER Image.png</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>LOER Node Tester.vi</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>LOER Signal Example.zip</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>LOERN Project.lvproj</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>README.md</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>XNode Icon.png</Path>
+        <Destination>0</Destination>
         <Additional_Destination>false</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
@@ -246,7 +288,7 @@ To allow for registrating object event references (or cluster of user event refe
         <Path/>
         <VI_Title/>
       </Items_Data>
-      <GUID>D00FAF206E5878605A9DD249B6C5BEA2</GUID>
+      <GUID>8C4713F8AE62B2C0AF94D253910AEFC6</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
